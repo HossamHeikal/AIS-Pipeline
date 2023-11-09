@@ -1,5 +1,5 @@
-Data Source: http://web.ais.dk/aisdata/aisdk-2023-10-26.zip
-Java 8: https://www.oracle.com/java/technologies/downloads/#license-lightbox
+* Data Source: http://web.ais.dk/aisdata/aisdk-2023-10-26.zip
+* Java 8: https://www.oracle.com/java/technologies/downloads/#license-lightbox
 
 # AIS-Pipeline
 End-to-End Automated Data Pipeline: From Data Acquisition to Visualization with Dockerized Spark, HDFS, and Airflow
