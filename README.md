@@ -24,10 +24,9 @@ The data engineering project extracts AIS data for analysis, helping in visualiz
 1. **Docker**: Ensures our setup works uniformly across different environments.
 2. **Apache Spark**: Handles large-scale data processing.
 3. **HDFS**: A place to store our large datasets.
-4. **Kafka**: Manages real-time data feeds.
-5. **PostgreSQL**: A database for storing our processed data.
-6. **Metabase**: A tool to visualize our data.
-7. **Airflow**: Schedules and automates our tasks.
+4. **PostgreSQL**: A database for storing our processed data.
+5. **Metabase**: A tool to visualize our data.
+6. **Airflow**: Schedules and automates our tasks.
 
 **Workflow**:
 
@@ -51,6 +50,7 @@ The system will automatically gather, process, and store data daily, making it r
 1. Add error-handling to ensure smooth operations.
 2. Push the results to PostgreSQL for easy visualization.
 3. Monitor the system's health regularly.
+4. Add a debezium connector and a kafka image to make more transformations to the postgres table
 
 Implement error-handling for reliability.
 Integrate results with PostgreSQL for enhanced visualization.
