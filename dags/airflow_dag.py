@@ -63,7 +63,7 @@ t3 = SparkSubmitOperator(
 t3.params = {'parquetfile': Param(date_string)}
 
 t4 = SparkSubmitOperator(
-    application='/app/airflow/dags/parquet_to_postgres.py',  # Update with the correct path to your script
+    application='/app/airflow/dags/parquet_to_postgres.py',  
     name='parquet_to_postgres',
     conn_id='spark',
     task_id='parquet_to_postgres_task',
